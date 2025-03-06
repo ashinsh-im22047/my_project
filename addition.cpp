@@ -8,8 +8,8 @@ int add(int a, int b) {
     return a + b;
 }
 //Add a new feature
-int mul(int x,int y){
-    return x*y ;
+int mul(int p,int q){
+    return p*q ;
 }
 
 int main() {
@@ -22,11 +22,10 @@ int main() {
     cout << "Enter second number: ";
     cin >> num2;
     
-    int k=num1+num2;
 
     // Displaying the result of the addition
     cout << "The sum of " << num1 << " and " << num2 << " is: " << add(num1, num2) << endl;
-    cout << "The sum of " << num1 << " and " << num2 << " is: " << mul(num1, num2) << endl;
+    cout << "The multiplication of " << num1 << " and " << num2 << " is: " << mul(num1, num2) << endl;
 
     return 0;
 }
