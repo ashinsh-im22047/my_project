@@ -7,6 +7,10 @@ using namespace std;
 int add(int a, int b) {
     return a + b;
 }
+//Add a new feature
+int mul(int x,int y){
+    return x*y ;
+}
 
 int main() {
     int num1, num2;
