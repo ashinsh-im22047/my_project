@@ -21,6 +21,8 @@ int main() {
 
     cout << "Enter second number: ";
     cin >> num2;
+    
+    int k=num1+num2;
 
     // Displaying the result of the addition
     cout << "The sum of " << num1 << " and " << num2 << " is: " << add(num1, num2) << endl;
