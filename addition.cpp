@@ -24,6 +24,7 @@ int main() {
 
     // Displaying the result of the addition
     cout << "The sum of " << num1 << " and " << num2 << " is: " << add(num1, num2) << endl;
+    cout << "The sum of " << num1 << " and " << num2 << " is: " << mul(num1, num2) << endl;
 
     return 0;
 }
